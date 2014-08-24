@@ -1,0 +1,37 @@
+Racial Demographic Reactive Map
+========================================================
+author: Patrick Gage Fisher 
+date: 8/23/2014
+
+What it is
+========================================================
+This is a reactive map of the U.S. Each county in the U.S. will appear color coded based on the racial demographic information that you input.
+
+What it does
+========================================================
+This app will take data inputs for your areas of interest - racial demographics and population % breakdowns - and display a U.S. Map displaying these populations by county.
+
+Before you begin, be sure to install the following three libraries.
+
+
+```{r}
+library(shiny)
+library(maps)
+library(mapproj)
+```
+
+
+How it works
+========================================================
+Simply select the racial demographic that you wish to examine in the radio button array in the left panel. The map will automatically reset itself to reflect your chosen demographic population.
+
+![color county map US](http://www.theusrus.de/Mondrian/Map-full.jpg)
+
+========================================================
+Displayed population percentages can be narrowed or widened using the slider on the left. Displaying a narrower range of population percentages will alter the color representation on the map for easier viewing.
+
+References
+========================================================
+This Shiny app is based on a project produced on the shiny.r.com website. It uses or directly references information and code from the Shiny app documentation and tutorials at shiny.r.com.
+
+This app and all of its supporting code was created by the author, but many elements of the app and its code will appear similar to its basis app.
